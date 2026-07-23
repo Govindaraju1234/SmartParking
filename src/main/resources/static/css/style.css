@@ -1,0 +1,362 @@
+body{
+    background:#f4f7fa;
+    font-family:Arial,sans-serif;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 6px 12px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.btn{
+    border-radius:10px;
+}
+
+.table{
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+body {
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    min-height: 100vh;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.form-control{
+    border-radius:10px;
+    height:45px;
+}
+
+.btn-primary{
+    border-radius:10px;
+    height:45px;
+    font-weight:bold;
+}
+.card {
+    background-color: #ffffff;
+}
+
+.btn-success {
+    border-radius: 10px;
+    height: 45px;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px rgba(13,110,253,0.3);
+    border-color: #0d6efd;
+}
+.card{
+
+    transition:0.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0px 12px 25px rgba(0,0,0,.3);
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+}
+
+h3{
+
+    font-weight:bold;
+
+}
+.card{
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0px 15px 30px rgba(0,0,0,.25);
+}
+
+.card i{
+    margin-bottom:15px;
+}
+
+.btn{
+    border-radius:12px;
+    font-weight:bold;
+}
+/* Smooth page animation */
+body{
+    animation:fadeIn .6s ease-in;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+    }
+
+    to{
+        opacity:1;
+    }
+
+}
+
+/* Card animation */
+
+.card{
+
+    animation:slideUp .5s ease-in;
+
+}
+
+@keyframes slideUp{
+
+    from{
+
+        transform:translateY(20px);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:translateY(0);
+
+        opacity:1;
+
+    }
+
+}
+
+/* Responsive tables */
+
+.table{
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.table thead{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:80px;
+
+}
+/*body {
+    background: url('/images/smartparking.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}*/
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.85) !important;
+}
+
+.card {
+    background: rgba(255,255,255,0.92);
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.btn {
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.table {
+    background: rgba(255,255,255,0.95);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+/* Feature Cards */
+
+.card {
+    background: rgba(255,255,255,0.95);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.20);
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.30);
+}
+
+.card i {
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.card:hover i {
+    transform: rotate(8deg) scale(1.15);
+}
+
+.card h4 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.card p {
+    color: #555;
+}
+
+/* About Card */
+
+.about-card {
+    background: rgba(255,255,255,0.92);
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.about-card h2 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.about-card p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+}
+/* Easy Booking */
+.booking-card{
+    background:linear-gradient(135deg,#0d6efd,#4dabf7);
+    color:white;
+}
+
+/* QR Entry */
+.qr-card{
+    background:linear-gradient(135deg,#198754,#43c59e);
+    color:white;
+}
+
+/* Secure Payment */
+.payment-card{
+    background:linear-gradient(135deg,#fd7e14,#ffc107);
+    color:white;
+}
+
+/* Parking History */
+.history-card{
+    background:linear-gradient(135deg,#6f42c1,#9b6dff);
+    color:white;
+}
+
+/* Common Card Style */
+.card{
+    border:none;
+    border-radius:20px;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.card h4{
+    color:#212529 !important;
+    font-weight:bold;
+}
+
+.card p{
+    color:#555 !important;
+}
+
+.card i{
+    color:inherit;
+}
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+/* Active navbar link */
+.navbar-nav .nav-link.active {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    color: #000 !important;
+    font-weight: bold;
+}
+.dashboard-card{
+    border-radius:20px;
+    min-height:170px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.dashboard-card h5{
+    font-weight:bold;
+    font-size:22px;
+}
+
+.dashboard-card h2{
+    font-size:42px;
+    margin-top:10px;
+    font-weight:bold;
+}
